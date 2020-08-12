@@ -21,16 +21,12 @@ client.on('message', message => {
        }
  
  
- message.delete()
-  .then(msg => console.log(`Deleted message from ${msg.author.username}`))
-  .catch(console.error);
-
  
- client.on('massage', message => {
+client.on('massage', message => {
   
     if (message.content === 'ข้อมูลบอทกาย') {
      
-     message.reply(' ```ผู้สร้าง: เมกุมินสุดน่ารัก#9484``` ');
+       message.reply(' ```ผู้สร้าง: เมกุมินสุดน่ารัก#9484``` ');
      
     }
  
