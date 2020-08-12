@@ -8,7 +8,7 @@ client.on('ready', () => {
 
     console.log('I am ready!');
 
-});
+}});
 
  
 
@@ -20,7 +20,16 @@ client.on('message', message => {
 
        }
 
-});
+ 
+ client.on('message', message => {
+
+    if (message.content === 'ข้อมูลบอทกาย') {
+
+       message.reply('```ผู้สร้างบอท:เมกุมินสุดน่ารัก#9484```');
+
+       }
+
+ }});
 
  
 
