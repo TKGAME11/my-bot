@@ -26,6 +26,14 @@ client.on('message', message => {
   .catch(console.error);
 
  
+ client.on('massage', message => {
+  
+    if (message.content === 'ข้อมูลบอทกาย') {
+     
+     message.reply(' ```ผู้สร้าง: เมกุมินสุดน่ารัก#9484``` ');
+     
+    }
+ 
  
 });
 
