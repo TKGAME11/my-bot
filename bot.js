@@ -18,7 +18,7 @@ client.on('message', message => {
 
        message.reply('สวัสดีผมกายเอง');
 
-       }
+       });
  
  
  
@@ -28,7 +28,7 @@ client.on('massage', message => {
      
        message.reply(' ```ผู้สร้าง: เมกุมินสุดน่ารัก#9484``` ');
      
-    }
+    });
  
  
 });
