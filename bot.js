@@ -16,26 +16,14 @@ client.on('message', message => {
 
     if (message.content === 'สวัสดี') {
 
-       message.reply('สวัสดีครับผมกายเอง');
+       message.reply('สวัสดีผมกายเอง');
 
-}}
+       }
 
- 
- 
- client.on('message', message => {
-
-    if (message.content === 'ข้อมูลบอทกาย') {
-
-       message.reply('```ผู้สร้างบอท:เมกุมินสุดน่ารัก#9484```');
-
- }
-
-  
-  
- })
+});
 
  
 
 // THIS  MUST  BE  THIS  WAY
 
-client.login(process.env.BOT_TOKEN);
+client.login(process.env.BOT_TOKEN);//BOT_TOKEN is the Client Secret
