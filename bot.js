@@ -8,7 +8,7 @@ client.on('ready', () => {
 
     console.log('I am ready!');
 
-});
+       });
 
  
 
@@ -26,9 +26,9 @@ client.on('massage', message => {
   
     if (message.content === 'ข้อมูลบอทกาย') {
      
-       message.reply(' ```ผู้สร้าง: เมกุมินสุดน่ารัก#9484``` ');
+       message.reply('ผู้สร้าง: เมกุมินสุดน่ารัก#9484');
      
-    });
+      });
  
  
 });
