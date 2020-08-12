@@ -18,7 +18,7 @@ client.on('message', message => {
 
        message.reply('สวัสดีครับผมกายเอง');
 
-       }
+}}
 
  
  
@@ -28,14 +28,14 @@ client.on('message', message => {
 
        message.reply('```ผู้สร้างบอท:เมกุมินสุดน่ารัก#9484```');
 
-       }
+ }
 
   
   
- });
+ })
 
  
 
 // THIS  MUST  BE  THIS  WAY
 
-client.login(process.env.BOT_TOKEN);//BOT_TOKEN is the Client Secret
+client.login(process.env.BOT_TOKEN);
