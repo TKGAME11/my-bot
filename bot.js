@@ -19,7 +19,14 @@ client.on('message', message => {
        message.reply('สวัสดีผมกายเอง');
 
        }
+ 
+ 
+ message.delete()
+  .then(msg => console.log(`Deleted message from ${msg.author.username}`))
+  .catch(console.error);
 
+ 
+ 
 });
 
  
